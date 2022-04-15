@@ -1,0 +1,202 @@
+* {
+    box-sizing: border-box;
+}
+  
+body {
+    font-family: sans-serif, monospace;
+    font-size: 135%;
+    min-height: 80px;
+    background: linear-gradient(#00000080, rgba(0, 0, 0, 0.7)),
+      url(https://i.postimg.cc/fLm6DNzR/backgroundstocks.webp);
+    background-color: #000000;
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    max-height: 100%;
+}
+  
+.container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+    text-shadow: 3px 3px 4px black;
+}
+  
+select {
+    margin: 12px;
+    padding: 6px;
+    background: rgba(0, 0, 0, 0.6);
+    outline: none;
+    border-style: hidden hidden solid hidden;
+    box-shadow: none;
+    font-size: 16px;
+    color: #fff;
+    width: 15%;
+    font-family: sans-serif, monospace;
+    text-align: center;
+    cursor: pointer;
+}
+  
+.rate {
+    color: transparent;
+    opacity: 0;
+    pointer-events: none;
+}
+  
+input {
+    margin: 12px;
+    padding: 6px;
+    background: rgba(0, 0, 0, 0.6);
+    outline: none;
+    border-style: hidden hidden solid hidden;
+    box-shadow: none;
+    font-size: 16px;
+    color: #fff;
+    width: 30%;
+    font-family: sans-serif, monospace;
+    text-align: right;
+}
+  
+button {
+    margin-top: 20px;
+    border-style: hidden hidden solid hidden;
+    box-shadow: none;
+    padding: 10px 25px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    font-size: 19px;
+    cursor: pointer;
+    width: 20%;
+}
+button:hover {
+    background: #fada06;
+    color: #545454;
+}
+  
+.page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+}
+  
+.page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+    font-size: 100%;
+}
+  
+.page-logo {
+    width: 150px;
+}
+  
+.alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+  
+label {
+    color: white;
+}
+  
+h2 {
+    color: #ffffff;
+    font-size: 30px;
+}
+  
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+  
+p.follow {
+    color: #fff;
+    font-size: 90%;
+}
+  
+input.c {
+    border: 0;
+    border-radius: 0px;
+    background-color: transparent;
+    width: 5.3%;
+    transition: transform 0.1s ease;
+}
+  
+input.c:hover {
+    transform: scale(1.2);
+}
+  
+input.d {
+    width: 40px;
+    position: absolute;
+    top: 30px;
+    right: 0px;
+}
+  
+  
+  
+  /* ////////////// LANGUAGE POPUP ////////////////*/
+  
+  
+input.b {
+    border: 0;
+    border-radius: 5px;
+    width: 15%;
+    background-color: transparent;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.8);
+    transition: transform 0.15s ease;
+    
+}
+  
+input.b:hover {
+    transform: scale(1.1);
+}
+  
+.modal_container {
+    background-size: cover;
+    background-color: rgba(0, 0, 8, 0.85);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    opacity: 0;
+    pointer-events: none;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    transition: opacity 1s ease;
+    font-family: sans-serif, monospace;
+}
+  
+.modal_container.show {
+    pointer-events: auto;
+    opacity: 1;
+}
+  
+h1.b {
+    font-size: 120%;
+    line-height: 7%;
+}
+  
+.modal {
+    background-color: #4A4A4A;
+    color: #fff;
+    padding: 30px 50px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    width: 500px;
+    height: 250px;
+    max-width: 100%;
+    text-align: center;
+    font-family: sans-serif, monospace;
+}
+  
+div.b {
+    line-height: 0;
+    font-size: 75%;
+}

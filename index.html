@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas</title>
+    <link rel="stylesheet" type="text/css" href="./style.css"/>
+</head>
+<body>
+    <!-- LANGUAGE POPUP AND TITLE -->
+  <header>
+    <div class="modal_container" id="modal_container">
+      <div class="modal">
+        <h1 class="b">Choose your language:</h1>
+        <br>
+        <div class="b">
+          <input class="b" type="image" value="US" src="./assets/United-States-Flag1-icon.png" id="usa" name="language"> <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+          <input class="b" type="image" value="BR" src="./assets/Brazil-Flag-icon1.png" id="brazil" name="language">
+          </input><br>
+          <p class="b"> en-us &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pt-br</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+<!-- MAIN PAGE -->
+<main>
+  <div class="container">
+    <h1 class="page-title" id="title">
+      Conversor de Moedas
+    </h1><br>
+    <p class="page-subtitle" id="sub">
+      Descubra quanto vale o seu dinheiro<br>ao redor do mundo!
+    </p>
+    <label class="instruction" for="moeda" id="instruction">Insira o valor desejado:</label><br>
+  
+    <div class="containerMoeda">
+      <div class="moeda">
+        <select id="moedaUm">
+          <option value="BRL">BRL</option>
+          <option value="USD" selected>USD</option>
+          <option value="AUD">AUD</option>
+          <option value="CAD">CAD</option>
+          <option value="CHF">CHF</option>
+          <option value="EUR">EUR</option>
+          <option value="GBP">GBP</option>
+          <option value="JPY">JPY</option>
+          <option value="RUB">RUB</option>
+        </select>
+        <input type="number" id="primeiraQuantia" placeholder="0" />
+        </div>
+      </div>
+  
+      <div class="moeda">
+        <select id="moedaDois">
+          <option value="BRL" selected>BRL</option>
+          <option value="USD">USD</option>
+          <option value="AUD">AUD</option>
+          <option value="CAD">CAD</option>
+          <option value="CHF">CHF</option>
+          <option value="EUR">EUR</option>
+          <option value="GBP">GBP</option>
+          <option value="JPY">JPY</option>
+          <option value="RUB">RUB</option>
+        </select>
+        <input type="number" id="segundaQuantia" placeholder="0" />
+      </div>
+        <div class="swapButton">
+          <button type="button" class="btn" id="swap">Inverter</button>
+          <button type="button" class="btn" id="convert">Converter</button>
+          <p class="follow" id="follow">ME &nbsp; SIGA:</p> <a href="https://github.com/MiloVSM" target="_blank"><input class="c" type="image" src="https://i.postimg.cc/Gpn3dnVg/github-icon1.png" </input></a>
+          <a href="https://www.linkedin.com/in/murilo-vieira-08379b233/" target="_blank">
+            <input class="c" type="image" src="https://i.postimg.cc/brnD39ts/linkedin-icon1.png" </input></a>
+          <div class="rate" id="rate"></div>
+        </div>
+        <footer> 
+          <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt="">&nbsp;<input class="d" type="image" src="https://i.postimg.cc/nr9L6QJg/Brazil-Flag-icon1.png" id="current"> 
+        </footer>
+      </div>
+  
+    </div>
+</main>
+
+  <a href="https://alura.com.br/" target="_blank">
+    <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo"></a>
+    <script src="./scripts/lang.js"></script>
+    <script src="./scripts/coversion.js" ></script>
+</body>
+</html>
