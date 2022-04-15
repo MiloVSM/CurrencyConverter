@@ -3,8 +3,7 @@
 ## _"Descubra quanto vale o seu dinheiro."_
  
 ### Feito por **_Murilo Vieira Santos Maria (@MiloVSM)_**
- 
- 
+<br><br>
 Este projeto se trata de um site de conversão de moedas, construído com HTML, CSS e Javascript puro. E foi produzido por um iniciante, com o íntuito de praticar e demonstrar seus conhecimento em tais tecnologias.
 
 - Construído com HTML, CSS e Javascript.
